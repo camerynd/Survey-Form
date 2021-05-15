@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  font-family: Roboto;
+  font-style: bold;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5)
+}
+#button {
+  margin-top: 20px;
+}
+.center {
+    text-align: center;
+ }
+ #description {
+   font-size: 20px;
+ }
+ #email {
+   color: blue;
+ }
+ #survey-form {
+     padding-left: 20px;
+ }
+ #title {
+   text-decoration: underline;  
+ }

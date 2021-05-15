@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <title>Survey</title>
+</head>
+<body>
+<h1 id="title" class="center">Personal Info Survey</h1>
+    <p id="description" class="center">Please answer a few questions regarding your information.</p>
+    <form id="survey-form">
+        <label id="name-label">Please enter your name:</label>
+          <input id="name" placeholder="example" required>
+          </br></br>
+        <label id="email-label">Please enter your email:</label>
+        <input type="email" placeholder="example@email.com" id="email" required>
+      </br></br>
+          <label id="number-label">Please enter your phone number:</label>
+        <input type="number" class="number" placeholder="xxxxxxxxxx" id="number" required min="10" max="10">
+      </br></br>
+          <label>Favorite ice cream:</label>
+        <select name="icecream" id="dropdown">
+        <option value="vanilla">Vanilla</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="chocolate">Chocolate</option>
+          </select>
+          </br></br>
+          <label>Which hand do you write with?</label>
+       <label for="right"><input id="right" type="radio" name="right-left" value="right" checked>Right</label>
+          <label for="left"><input id="left" type="radio" name="right-left" value="left">Left</label><br>
+          <p>What describes you?</p>
+        <label for="smart"><input id="smart" type="checkbox" name="personality" value="smart" checked> Smart</label>
+          <label for="crazy"><input id="crazy" type="checkbox" name="personality" value="crazy">Crazy</label>
+          <label for="boring"><input id="boring" type="checkbox" name="personality" value="boring">Boring</label>
+            <label for="woke"><input id="woke" type="checkbox" name="personality" value="woke">Woke/Ascended</label>
+          </br> 
+        <p>Add additional info about yourself:</p>
+       <textarea id="comments" rows="4" cols="50"></textarea></br></br>
+      <button id="submit" type="submit">Submit</button>
+        </form>
+</body>
+</html>
